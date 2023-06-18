@@ -17,7 +17,7 @@
 
     
 
-    <link rel="stylesheet" href="css/style.min.css?v=1686921153612">
+    <link rel="stylesheet" href="css/style.min.css?v=1687085231097">
   </head>
   <body>
     <header class="header">
@@ -27,8 +27,9 @@
         </ul>
         <ul class="header__right">
             <li><a class="header__right-margin" href="index.html">Главная</a></li>
-            <li><a class="header__right-margin" href="#price">Цены</a></li>
-            <li><a class="header__right-margin" href="#shedule">Расписание</a></li>
+            <li><a class="header__right-margin" href="price.html">Цены</a></li>
+            <li><a class="header__right-margin" href="schedule.html">Расписание</a></li>
+            <li><a class="header__right-margin" href="sponsors.html">Спонсоры</a></li>
             <li><a href="plants.html">Основные растения парка</a></li>
         </ul>
     </div>
@@ -40,6 +41,8 @@
     </div>
     <ul class="header__burger-menu">
         <li><a href="index.html">Главная</a></li>
+        <li><a href="price.html">Цены</a></li>
+        <li><a href="schedule.html">Расписание</a></li>
         <li><a href="plants.html">Основные растения парка</a></li>
     </ul>
 </header>
@@ -48,7 +51,7 @@
         <section class="container main">
           <div class="main__wrap">
           <h1>Дендропарк в Тольятти</h1>
-          <button class="btn btn-open-js" type="button">Зарегистрироваться</button>
+          <a href="./contactUs.html"><button class="btn btn-open-js" type="button">Связаться с нами</button></a>
           </div>
         </section>
 
@@ -56,39 +59,6 @@
           <div class="container dendroinfo__wrap">
           <p><span class="dendroinfo__wrap-bold">Дендропарк</span> – особая зеленая зона на карте Тольятти. Он появился еще в 90-х годах прошлого столетия. Уникальность этого парка в том, что деревья сюда привозили со всех уголков страны, от Карелии до Дальнего Востока.</p>
           </div>
-        </div>
-
-        <section class="container price" id="price">
-          <h2 class="price__title">Цены</h2>
-          <ul class="price__line">
-            <li class="price__block price__block-margin">
-              <p>Одиночное посещение</p>
-              <p>500 рублей</p>
-              <p>Критерии:</p>
-              <p>1. вы один</p>
-            </li>
-            <li class="price__block price__block-margin">
-              <p>Семейное посещение</p>
-              <p>1000 рублей</p>
-              <p>Критерии:</p>
-              <p>1. вас минимум 5 человек</p>
-            </li>
-            <li class="price__block">
-              <p>выходное посещение</p>
-              <p>750 рублей</p>
-              <p>Критерии:</p>
-              <p>1. вы один</p>
-              <p>2. выходной день</p>
-            </li>
-          </ul>
-        </section>
-        <div class="container shedule" id="shedule">
-          <picture>
-            
-            <source srcset="./img/sheduleTablet.png, ./img/sheduleTablet2x.png 2x" media="(max-width: 1400px)">
-            <source srcset="./img/sheduleDesktop.png">
-            <img src="./img/sheduleDesktop.png" alt="расписание">
-          </picture>
         </div>
         <div class="container map">
           <div class="map__block">
@@ -115,24 +85,7 @@
     </div>
 </footer>
     </div>
-    <div class="popup">
-    <div class="popup__wrap">
-    <form class="popup__sign-in" name="SignIn">
-        <div class="popup__email">
-            <label for="email-login">Email <span class="red-dot-modal">*</span></label>
-            <input name="email" type="text" class="form-control" id="email-login">
-        </div>
-        <div class="popup__password">
-            <label for="password-login">Password <span class="red-dot-modal">*</span></label>
-            <input name="password" type="password" class="form-control" id="password-login">
-        </div>
-        <button class="btn" type="submit">Register</button>
-    </form>
-    <div class="popup__close"></div>
-    </div>
-</div>
     <script src="js/app.js" defer="defer"></script>
-    <script src="js/index.js" defer="defer"></script>
     <script src="js/burger.js" defer="defer"></script>
   </body>
 </html>
