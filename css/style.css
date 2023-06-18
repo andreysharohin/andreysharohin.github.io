@@ -666,7 +666,7 @@ img {
   }
 }
 .main__wrap h1 {
-  width: 414px;
+  max-width: 414px;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
@@ -675,6 +675,11 @@ img {
   color: #000000;
   margin-top: 100px;
   margin-bottom: 40px;
+}
+@media (max-width: 710px) {
+  .main__wrap h1 {
+    font-size: 50px;
+  }
 }
 .main__wrap button {
   cursor: pointer;
@@ -909,7 +914,7 @@ img {
 }
 
 .plants h1 {
-  width: 414px;
+  max-width: 414px;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
@@ -922,6 +927,7 @@ img {
 @media (max-width: 710px) {
   .plants h1 {
     margin-left: 10px;
+    font-size: 50px;
   }
 }
 
@@ -1013,7 +1019,7 @@ img {
   }
 }
 .price-title h1 {
-  width: 414px;
+  max-width: 414px;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
@@ -1021,6 +1027,11 @@ img {
   line-height: 60px;
   color: #000000;
   margin-top: 100px;
+}
+@media (max-width: 710px) {
+  .price-title h1 {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 710px) {
@@ -1029,7 +1040,7 @@ img {
   }
 }
 .schedule-title h1 {
-  width: 414px;
+  max-width: 414px;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
@@ -1037,6 +1048,11 @@ img {
   line-height: 60px;
   color: #000000;
   margin-top: 100px;
+}
+@media (max-width: 710px) {
+  .schedule-title h1 {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 710px) {
@@ -1045,7 +1061,7 @@ img {
   }
 }
 .contact-title h1 {
-  width: 414px;
+  max-width: 414px;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
@@ -1054,6 +1070,11 @@ img {
   color: #000000;
   margin-top: 100px;
 }
+@media (max-width: 710px) {
+  .contact-title h1 {
+    font-size: 50px;
+  }
+}
 
 @media (max-width: 710px) {
   .sponsors-title {
@@ -1061,7 +1082,7 @@ img {
   }
 }
 .sponsors-title h1 {
-  width: 414px;
+  max-width: 414px;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
@@ -1071,6 +1092,11 @@ img {
   margin-top: 100px;
   -webkit-animation: text 3s 1;
           animation: text 3s 1;
+}
+@media (max-width: 710px) {
+  .sponsors-title h1 {
+    font-size: 50px;
+  }
 }
 
 @-webkit-keyframes text {
