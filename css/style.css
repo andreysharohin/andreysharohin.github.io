@@ -1122,6 +1122,10 @@ img {
     letter-spacing: 3px;
   }
 }
+.sponsors-wrap {
+  margin-bottom: 250px;
+}
+
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -1138,8 +1142,7 @@ img {
 }
 
 .dropdown {
-  position: relative;
-  top: 230px;
+  margin-top: 230px;
   width: 100%;
   display: inline-block;
 }
